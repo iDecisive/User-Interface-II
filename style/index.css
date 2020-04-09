@@ -142,3 +142,26 @@ h1 {
     text-align: left;
     margin: 5% 0 0 10%;
 }
+
+#gallary1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 0 0 0;
+    justify-content: space-evenly;
+}
+
+
+#gallary1 > img {
+    width: 10%;
+}
+
+#gallary2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 0 0 0;
+    justify-content: space-evenly;
+}
+
+#gallary2 > img {
+    width: 10%;
+}

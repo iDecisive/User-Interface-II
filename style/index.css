@@ -63,7 +63,8 @@ html {
 
 h1 {
     font-size: 3rem;
-    padding: 25px 0 0 40px;
+    /* padding: 25px 0 0 40px; */
+    padding: 2% 0 0 2%;
 }
 
 #topbar {
@@ -74,8 +75,8 @@ h1 {
 #navbar {
     display: flex;
     box-sizing: border-box;
-    margin: 25px 0 0 75px;
-
+    /* margin: 25px 0 0 75px; */
+    margin: 1.5% 0 0 3.5%;
     
 }
 
@@ -104,7 +105,7 @@ h1 {
 #about {
     display:flex;
     justify-content: center;
-    margin: 25px 0 0 0;
+    margin: 2% 0 0 0;
     text-align: center;
     box-sizing: border-box;
 }
@@ -204,7 +205,14 @@ h1 {
 /* CSS for smaller screen sizes below */
 
 @media (max-width:800px) {
+    #nameabout {
+        margin: 15% 0 0 0;
+        padding: 0 10% 10% 10%;
+    }
 
+    #abouttext {
+        margin: 10% 0 0 10%;
+    }
 }
 
 @media (max-width:500px) {

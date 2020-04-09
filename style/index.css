@@ -103,7 +103,8 @@ h1 {
 }
 
 #about {
-    display:flex;
+    display: flex;
+    
     justify-content: center;
     margin: 2% 0 0 0;
     text-align: center;
@@ -216,5 +217,20 @@ h1 {
 }
 
 @media (max-width:500px) {
+    #about {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nameabout {
+        margin: 15% 0 0 0;
+        padding: 0 10% 15% 10%;
+    }
+
+    #abouttext {
+        margin: 15% 0 0 10%;
+    }
 
 }

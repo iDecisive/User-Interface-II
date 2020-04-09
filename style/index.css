@@ -62,12 +62,14 @@ h1 {
 
 #topbar {
     background-color: rgb(226, 226, 226);
+    box-shadow: 2px 2px 10px black;
 }
 
 #navbar {
     display: flex;
     box-sizing: border-box;
     margin: 25px 0 0 75px;
+
     
 }
 
@@ -90,4 +92,53 @@ h1 {
     background: black;
     color: white;
 
+}
+
+#about {
+    display:flex;
+    justify-content: center;
+    margin: 25px 0 0 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#aboutpic {
+    width: 30%;
+    /* padding: 0 25px 0 0; */
+    display:inline;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#aboutright {
+    width: 30%;
+    /* position: relative; */
+    text-align: left;
+}
+
+#nameabout {
+    /* display:inline; */
+    text-align: left;
+    margin: 30% 10% 5% 0;
+    padding: 0 0 0 10%;
+}
+
+
+#myprojectsbtn {
+    border: 1px solid black;
+    padding: 10px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    margin: 0 0 0 10%
+}
+
+#myprojectsbtn:hover {
+    background: black;
+    color: white;
+}
+
+#abouttext {
+    text-align: left;
+    margin: 5% 0 0 10%;
 }
